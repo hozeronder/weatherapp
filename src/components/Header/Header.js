@@ -14,7 +14,7 @@ function Header() {
     <div className="header">
       <div>
         <select className="dropdown" onChange={(e) => setCity(e.target.value)}>
-        <option value="" disabled selected hidden>Select City</option>
+        <option disabled value hidden></option>
         {cityOptions}
         </select>
       </div>
