@@ -5,7 +5,7 @@ import { round } from "mathjs";
 const Forecast = (props) => {
   const { forecast } = props;
   if (!forecast) {
-    return <p>Receivingads...</p>;
+    return <p>Receiving Data...</p>;
   }
 
   function timeStamp(savedTime) {

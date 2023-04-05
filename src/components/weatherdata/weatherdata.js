@@ -5,15 +5,13 @@ import Weather from "./weather";
 import Forecast from "./forecast";
 import CityContext from "../weatherapi/CityContext";
 
-
-
 // Data Identification
 const Weatherdata = () => {
   const [weather, setWeather] = useState();
   const [forecast, setForecast] = useState();
   const { latitude, longitude } = useGeolocation();
   const { city } = useContext(CityContext);
-  const key = "83e6df580cb2089f27aa60be12490adb";
+  const key = process.env.REACT_APP_API_KEY;
   const lang = navigator.language.split("-")[0];
 
   // Location Data Receive part
