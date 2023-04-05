@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
   font-size: x-large;
   font-family: "Dosis", sans-serif;
 }
+
 .cards {
   display: grid;
   align-items: center;
