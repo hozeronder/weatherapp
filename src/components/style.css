@@ -68,3 +68,8 @@ body::-webkit-scrollbar {
 
 @import url("https://cdn.syncfusion.com/ej2/material.css");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap");
+@media screen and (max-width: 320px) {
+  #__next {
+    display: flex
+  }
+}
